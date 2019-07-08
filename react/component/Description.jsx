@@ -112,10 +112,11 @@ class Description extends React.Component{
                             <div id='readless' onClick={e=>this.readlessdesc()} onMouseEnter={e=>this.addUnderLine()} onMouseLeave={e=>this.removeUnderLine()}>
                                 <div style={displayunderline}>Hide</div>
                             </div>
-                            <div id='fakedesclink' onMouseEnter={e=>this.addUnderLine()} onMouseLeave={e=>this.removeUnderLine()} >
-                                <div style={displayunderline}>Contact host</div>
-                            </div>
+                            
                         </div>   
+                        <div id='fakedesclink' onMouseEnter={e=>this.addUnderLine()} onMouseLeave={e=>this.removeUnderLine()} >
+                            <div style={displayunderline}>Contact host</div>
+                        </div>
                     </div>
                 }
                 </div>
